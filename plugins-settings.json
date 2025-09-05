@@ -1,0 +1,53 @@
+{
+    "ee24f5ac-e15e-4ddd-baa4-0b4baedf90c9": {
+        "id": "344f8923-5695-432d-b795-b4b134522e59",
+        "name": "CSV",
+        "designId": "a30c65ba-aa7b-4b4e-9e3f-bb901c09f813",
+        "pluginId": "ee24f5ac-e15e-4ddd-baa4-0b4baedf90c9",
+        "publicData": {}
+    },
+    "1fa0dd68-5069-436c-9a7d-3b54c340f1fa": {
+        "id": "486391b2-2331-421e-830a-1a0594b2e283",
+        "name": "Supabase Auth",
+        "designId": "a30c65ba-aa7b-4b4e-9e3f-bb901c09f813",
+        "pluginId": "1fa0dd68-5069-436c-9a7d-3b54c340f1fa",
+        "publicData": {
+            "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR0Y2djanJ1ZHppeHhhbnNoZmdqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzUyNTQwNjUsImV4cCI6MjA1MDgzMDA2NX0.93EirbV2_Xcme-L6yvTHHME1U6CIEzUGw6LvLA3AJ80",
+            "roleTable": "roles",
+            "projectUrl": "https://ttcgcjrudzixxanshfgj.supabase.co",
+            "customDomain": "",
+            "userRoleTable": "users_roles",
+            "roleTableNameColumn": "name",
+            "userRoleTableRoleColumn": "role_id",
+            "userRoleTableUserColumn": "user_id"
+        }
+    },
+    "2bd1c688-31c5-443e-ae25-59aa5b6431fb": {
+        "id": "89578885-5e77-4db2-93f1-86e378330872",
+        "name": "REST API",
+        "designId": "a30c65ba-aa7b-4b4e-9e3f-bb901c09f813",
+        "pluginId": "2bd1c688-31c5-443e-ae25-59aa5b6431fb",
+        "publicData": {}
+    },
+    "8bc1b5c9-29e4-4269-becb-a2e1a8de9127": {
+        "id": "f1a1c86d-e0f8-4ba2-ad01-8b4ccdfbd442",
+        "name": "WeWeb Email",
+        "designId": "a30c65ba-aa7b-4b4e-9e3f-bb901c09f813",
+        "pluginId": "8bc1b5c9-29e4-4269-becb-a2e1a8de9127",
+        "publicData": {}
+    },
+    "f9ef41c3-1c53-4857-855b-f2f6a40b7186": {
+        "id": "ece61af3-87b7-4ea4-96a6-6f5178354763",
+        "name": "Supabase",
+        "designId": "a30c65ba-aa7b-4b4e-9e3f-bb901c09f813",
+        "pluginId": "f9ef41c3-1c53-4857-855b-f2f6a40b7186",
+        "publicData": {
+            "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR0Y2djanJ1ZHppeHhhbnNoZmdqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzUyNTQwNjUsImV4cCI6MjA1MDgzMDA2NX0.93EirbV2_Xcme-L6yvTHHME1U6CIEzUGw6LvLA3AJ80",
+            "projectUrl": "https://ttcgcjrudzixxanshfgj.supabase.co",
+            "customDomain": "",
+            "realtimeTables": {
+                "Consultas": true
+            }
+        }
+    }
+}
