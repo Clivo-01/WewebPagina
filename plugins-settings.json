@@ -6,22 +6,6 @@
         "pluginId": "ee24f5ac-e15e-4ddd-baa4-0b4baedf90c9",
         "publicData": {}
     },
-    "1fa0dd68-5069-436c-9a7d-3b54c340f1fa": {
-        "id": "486391b2-2331-421e-830a-1a0594b2e283",
-        "name": "Supabase Auth",
-        "designId": "a30c65ba-aa7b-4b4e-9e3f-bb901c09f813",
-        "pluginId": "1fa0dd68-5069-436c-9a7d-3b54c340f1fa",
-        "publicData": {
-            "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR0Y2djanJ1ZHppeHhhbnNoZmdqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzUyNTQwNjUsImV4cCI6MjA1MDgzMDA2NX0.93EirbV2_Xcme-L6yvTHHME1U6CIEzUGw6LvLA3AJ80",
-            "roleTable": "roles",
-            "projectUrl": "https://ttcgcjrudzixxanshfgj.supabase.co",
-            "customDomain": "",
-            "userRoleTable": "users_roles",
-            "roleTableNameColumn": "name",
-            "userRoleTableRoleColumn": "role_id",
-            "userRoleTableUserColumn": "user_id"
-        }
-    },
     "2bd1c688-31c5-443e-ae25-59aa5b6431fb": {
         "id": "89578885-5e77-4db2-93f1-86e378330872",
         "name": "REST API",
@@ -46,8 +30,25 @@
             "projectUrl": "https://ttcgcjrudzixxanshfgj.supabase.co",
             "customDomain": "",
             "realtimeTables": {
-                "Consultas": true
+                "Consultas": false,
+                "Consultas_duplicate": true
             }
+        }
+    },
+    "1fa0dd68-5069-436c-9a7d-3b54c340f1fa": {
+        "id": "486391b2-2331-421e-830a-1a0594b2e283",
+        "name": "Supabase Auth",
+        "designId": "a30c65ba-aa7b-4b4e-9e3f-bb901c09f813",
+        "pluginId": "1fa0dd68-5069-436c-9a7d-3b54c340f1fa",
+        "publicData": {
+            "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR0Y2djanJ1ZHppeHhhbnNoZmdqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzUyNTQwNjUsImV4cCI6MjA1MDgzMDA2NX0.93EirbV2_Xcme-L6yvTHHME1U6CIEzUGw6LvLA3AJ80",
+            "roleTable": "roles",
+            "projectUrl": "https://ttcgcjrudzixxanshfgj.supabase.co",
+            "customDomain": "",
+            "userRoleTable": "users_roles",
+            "roleTableNameColumn": "name",
+            "userRoleTableRoleColumn": "role_id",
+            "userRoleTableUserColumn": "user_id"
         }
     }
 }
